@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { FiTwitter, FiLinkedin, FiMail } from "react-icons/fi";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -81,13 +82,19 @@ export default function SiteFooter() {
             <h5>Keep in Touch</h5>
             <ul className="footer-social">
               <li>
-                <a href="https://get.health">111</a>
+                <a href="https://get.health">
+                  <FiTwitter />
+                </a>
               </li>
               <li>
-                <a href="https://get.health">222</a>
+                <a href="https://get.health">
+                  <FiLinkedin />
+                </a>
               </li>
               <li>
-                <a href="https://get.health">333</a>
+                <a href="https://get.health">
+                  <FiMail />
+                </a>
               </li>
             </ul>
           </Col>

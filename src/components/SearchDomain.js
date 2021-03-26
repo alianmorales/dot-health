@@ -11,7 +11,7 @@ export default function SearchDomain() {
         placeholder="Enter domain"
         aria-label="Amount (to the nearest dollar)"
       />
-      <h4 className="input-domain">.health</h4>
+      <h4 className="health-domain-text">.health</h4>
       <InputGroup.Append>
         <Button variant="warning">
           <FiSearch />
