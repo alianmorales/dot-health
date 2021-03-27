@@ -9,7 +9,7 @@ import dotHealthLogo from "../assets/dothealth-logo.svg";
 export default function SiteFooter() {
   return (
     <footer className="footer">
-      <Container>
+      <Container className="border-top py-5">
         <Row>
           <Col>
             <img
